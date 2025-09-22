@@ -1,10 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Awesome Site</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Site</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #6dd5ed, #2193b0);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      padding: 80px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+    .btn {
+      background: #fff;
+      color: #2193b0;
+      padding: 12px 24px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #f1f1f1;
+    }
+    section {
+      background: #fff;
+      color: #333;
+      padding: 50px 20px;
+      border-radius: 15px 15px 0 0;
+      margin-top: -30px;
+    }
+    section h2 {
+      margin-bottom: 20px;
+    }
+    footer {
+      margin: 40px 0;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello internet! 🚀</h1>
-  <p>This is my very first personal site.</p>
+
+  <header>
+    <h1>Hey, I’m [Your Name] 👋</h1>
+    <p>Welcome to my personal website. This is where I share my projects, ideas, and experiments.</p>
+    <a href="#projects" class="btn">See My Work</a>
+  </header>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>🔹 Project 1 – A cool thing I built.</p>
+    <p>🔹 Project 2 – Another awesome creation.</p>
+    <p>🔹 Project 3 – Learning never stops!</p>
+  </section>
+
+  <footer>
+    <p>© 2024 [Your Name] | Built with 💻 & ☕</p>
+  </footer>
+
 </body>
 </html>
